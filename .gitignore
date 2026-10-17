@@ -1,0 +1,30 @@
+# Python environments and cache files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local match footage and generated videos
+/videos/*
+!/videos/.gitkeep
+/outputs/*
+!/outputs/.gitkeep
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.weights
+*.ckpt
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+secrets.*
+credentials.*
